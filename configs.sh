@@ -109,6 +109,8 @@ git config --global color.branch auto
 git config --global merge.conflictStyle diff3
 git config --global alias.st status
 git config --global alias.cm commit
+git config --global alias.br branch
+git config --global alias.l log
 
 ## vscode
 ### setting sync 割愛
