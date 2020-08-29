@@ -98,6 +98,9 @@ brew cask install clipy
 ### skitch
 brew cask install skitch
 
+# kindle
+brew cask install kindle
+
 ## git
 ### git alias
 #### git configd
@@ -111,6 +114,7 @@ git config --global alias.st status
 git config --global alias.cm commit
 git config --global alias.br branch
 git config --global alias.l log
+git config --global alias.co checkout
 
 ## vscode
 ### setting sync 割愛
