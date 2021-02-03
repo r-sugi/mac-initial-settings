@@ -58,6 +58,12 @@ brew install procs
 ### git
 brew install git
 
+## plantUML
+### graphviz
+brew install graphviz
+### java development kit
+brew reinstall openjdk
+
 ## application
 ### vscode
 brew cask install visual-studio-code
