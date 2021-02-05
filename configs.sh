@@ -64,6 +64,9 @@ brew install graphviz
 ### java development kit
 brew reinstall openjdk
 
+## xmind
+brew install xmind
+
 ## application
 ### vscode
 brew cask install visual-studio-code
