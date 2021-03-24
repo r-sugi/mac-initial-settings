@@ -127,3 +127,7 @@ git config --global alias.co checkout
 
 ## vscode
 ### setting sync 割愛
+
+## bash
+### history command show with datetime
+HISTTIMEFORMAT='%F %T '
