@@ -67,6 +67,9 @@ brew reinstall openjdk
 ## xmind
 brew install xmind
 
+## biscuit
+brew install --cask biscuit
+
 ## application
 ### vscode
 brew cask install visual-studio-code
