@@ -128,9 +128,18 @@ git config --global alias.br branch
 git config --global alias.l log
 git config --global alias.co checkout
 
+### git-browse-remote
+gem install git-browse-remote
+
+```
+usage example
+git browse-remote --pr
+```
+
 ## vscode
 ### setting sync 割愛
 
 ## bash
 ### history command show with datetime
 HISTTIMEFORMAT='%F %T '
+
