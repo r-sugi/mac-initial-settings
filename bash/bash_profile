@@ -1,0 +1,39 @@
+# export GOPATH=$HOME/go
+#export GOPATH=""
+#export PATH=$PATH:$GOPATH/bin
+#source ~/.bashrc
+#export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+#if [ -f '/Users/r-sugi/google-cloud-sdk/path.bash.inc' ]; then . '/Users/r-sugi/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+#if [ -f '/Users/r-sugi/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/r-sugi/google-cloud-sdk/completion.bash.inc'; fi
+
+# mysql@5.7
+#export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+#export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+#export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+#export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
+
+# java openjdk
+#export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+
+# java compiler
+#export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+
+
+
+# bash
+export HISTTIMEFORMAT='%F %T '
+
+source ~/.bashrc
+
+# brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# nodebrew
+# export PATH=$HOME/.nodebrew/current/bin:$PATHexport PATH=$HOME/.nodebrew/current/bin:$PATH

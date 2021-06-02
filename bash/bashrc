@@ -1,0 +1,29 @@
+## alias
+### git
+alias g="git"
+alias cl="clear"
+alias gst="git stash"
+alias gstp="git stash pop stash@{0}"
+alias gbr="git browse-remote"
+
+###  code-insiders
+alias codei="code-insiders"
+
+# direnv
+#export EDITOR="code"
+#eval "$(direnv hook bash)"
+
+#ruby
+#export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
+#eval "$(rbenv init -)"
+
+# openSSL
+#export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+#export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+#export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+#export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+# NVM node package manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
