@@ -40,6 +40,9 @@ exec $SHELL -l
 ### nodebrew
 brew install nodebrew
 
+## nvm (M1 mac)
+https://github.com/nvm-sh/nvm#installing-and-updating
+
 ### bat
 brew install bat
 
@@ -62,7 +65,7 @@ brew install git
 ### graphviz
 brew install graphviz
 ### java development kit
-brew reinstall openjdk
+brew install openjdk
 
 ## xmind
 brew install xmind
@@ -71,61 +74,70 @@ brew install xmind
 brew install --cask biscuit
 
 ## application
+### chatwork
+brew install --cask chatwork
+
+### zoomus
+brew install --cask zoom
+
+### adobe actobat reader
+brew install --cask adobe-acrobat-reader
+
 ### vscode
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 ### chrome
-brew cask install google-chrome
+brew install --cask google-chrome
 
 ### Table Plus
-brew cask install tableplus
+brew install --cask tableplus
 
 ### sequel ace
-brew cask install sequel-ace
+brew install --cask sequel-ace
 
 ### spectacle
-## brew cask install spectacle
+## brew install --cask spectacle
 
 ### postman
-brew cask install postman
+brew install --cask postman
 
 ### docker for Mac
-brew cask install docker
+brew install --cask docker
 
 ### slack
-brew cask install slack
+brew install --cask slack
 
 ### iterm2
-brew cask install iterm2
+brew install --cask iterm2
 
 ### mysql workbench
-brew cask install mysqlworkbench
+brew install --cask mysqlworkbench
 
 ### external keyboard
-brew cask install karabiner-elements
+brew install --cask karabiner-elements
 
 ### copy & paste
-brew cask install clipy
+brew install --cask clipy
 
 ### skitch
-brew cask install skitch
+brew install --cask skitch
 
 # kindle
-brew cask install kindle
+brew install --cask kindle
 
 ## git
 ### git alias
 #### git configd
-git config --global core.ignorecase false
-git config --global color.ui true
-git config --global color.diff auto
-git config --global color.status auto
-git config --global color.branch auto
-git config --global merge.conflictStyle diff3
-git config --global alias.st status
-git config --global alias.cm commit
-git config --global alias.br branch
-git config --global alias.l log
+git config --global core.ignorecase false && \
+git config --global color.ui true && \
+git config --global color.diff auto && \
+git config --global color.status auto && \
+git config --global color.branch auto && \
+git config --global merge.conflictStyle diff3 && \
+git config --global alias.st status && \
+git config --global alias.cm commit && \
+git config --global alias.br branch && \
+git config --global alias.l log && \
 git config --global alias.co checkout
 
 ### git-browse-remote
